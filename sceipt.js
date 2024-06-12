@@ -51,11 +51,6 @@ else {
 }
 
 
-
-
-
-
-
 parent.addEventListener("dblclick", function (event) {
     let ans = event.target.innerHTML;
     let oldvalues = localStorage.getItem("todo")
