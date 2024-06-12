@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="cursor-pointer">
+   
+    <div id="container" class="bg-black flex items-center justify-center h-[100vh] ">
+       <div>
+       
+       </div>
+        <div id="white"  class=" bg-white h-[70%] w-[50%] " >
+            <div class="bg-blue-400 h-[10%] flex items-center justify-evenly">
+                <input type="text" id="input" placeholder="Enter task" class="border-[1.3px] border-black w-[50%] h-[70%] text-center  ">
+                <button id="btn" class="bg-green-600 text-white w-[15%] rounded-lg h-[70%] shrink  text-[1.3vmax]  ">Add</button>
+            </div>
+
+            <div id="tasks" class=" text-2xl p-2 mb-2 ">
+                <div id="list-parent">
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+
+
+    <script src="sceipt.js"></script>
+</body>
+</html>

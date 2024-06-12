@@ -1,0 +1,21 @@
+#tasks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
